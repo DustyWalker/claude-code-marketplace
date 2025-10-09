@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "github": {
+      "transport": "http",
+      "url": "https://mcp.github.com"
+    },
+    "postgres": {
+      "transport": "stdio",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-postgres"],
+      "env": {
+        "DATABASE_URL": "${DATABASE_URL}"
+      }
+    }
+  }
+}

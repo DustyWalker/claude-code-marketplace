@@ -1,0 +1,25 @@
+{
+  "hooks": [
+    {
+      "event": "PreToolUse",
+      "command": "./scripts/pre-tool-check.sh",
+      "description": "Validate environment before tool execution",
+      "blocking": false,
+      "timeout": 3000
+    },
+    {
+      "event": "PostToolUse",
+      "command": "./scripts/post-tool-verify.sh",
+      "description": "Verify changes after tool execution",
+      "blocking": false,
+      "timeout": 5000
+    },
+    {
+      "event": "PreCommit",
+      "command": "npm run lint && npm test",
+      "description": "Lint and test before commit",
+      "blocking": true,
+      "timeout": 60000
+    }
+  ]
+}

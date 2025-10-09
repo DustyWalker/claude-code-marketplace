@@ -1,0 +1,60 @@
+# OS Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.obsidian/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Dependencies (if any are added later)
+node_modules/
+dist/
+build/
+
+# System files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Backup files
+*.bak
+*.backup
+*~.md
+
+# Test artifacts (if added later)
+coverage/
+.nyc_output/
+*.test.js
+
+# Git
+.git/
+
+# Personal notes or drafts (not committed)
+drafts/
+notes/
+scratch/
+TODO.personal.md

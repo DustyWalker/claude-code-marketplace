@@ -1,0 +1,55 @@
+{
+  "name": "production-agents-suite",
+  "version": "1.0.0",
+  "description": "15 production-ready Claude Code agents based on comprehensive market research. Delivers 70% ROI with 5-agent starter set, 10x efficiency with full deployment. Includes code review, security, testing, performance, backend, frontend, API design, database, refactoring, QA, architecture, E2E testing, deployment, CI/CD, and Docker specialists.",
+  "author": {
+    "name": "Claude Code Marketplace",
+    "email": "team@claudecode.dev"
+  },
+  "keywords": [
+    "code-review",
+    "security",
+    "testing",
+    "performance",
+    "backend",
+    "frontend",
+    "api-design",
+    "database",
+    "deployment",
+    "cicd",
+    "docker",
+    "productivity",
+    "automation",
+    "quality",
+    "devops"
+  ],
+  "homepage": "https://github.com/claude-code-marketplace/production-agents-suite",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/claude-code-marketplace/production-agents-suite"
+  },
+  "license": "MIT",
+  "agents": [
+    "code-reviewer",
+    "security-auditor",
+    "test-suite-generator",
+    "performance-optimizer",
+    "backend-typescript-architect",
+    "test-automator",
+    "qa-engineer",
+    "architecture-checker",
+    "frontend-developer",
+    "api-designer",
+    "database-architect",
+    "refactoring-specialist",
+    "deployment-engineer",
+    "cicd-automation",
+    "docker-specialist"
+  ],
+  "commands": [
+    "review",
+    "test",
+    "security-scan",
+    "deploy"
+  ]
+}

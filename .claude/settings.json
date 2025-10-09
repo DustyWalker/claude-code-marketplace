@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(.env)",
+      "Read(.env.local)",
+      "Read(.env.production)",
+      "Read(secrets/**)",
+      "Read(credentials/**)",
+      "Bash(rm -rf *)",
+      "Bash(curl *)",
+      "Bash(wget *)"
+    ],
+    "ask": [
+      "Bash(npm install *)",
+      "Bash(git push *)",
+      "Bash(git commit *)",
+      "Write(package.json)",
+      "Write(package-lock.json)",
+      "Edit(.github/**)",
+      "Bash(docker *)"
+    ]
+  },
+  "env": {
+    "NODE_ENV": "development",
+    "CLAUDE_CODE_ENABLE_TELEMETRY": "1"
+  },
+  "enabledPlugins": [],
+  "extraKnownMarketplaces": []
+}
