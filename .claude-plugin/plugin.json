@@ -24,32 +24,29 @@
     "devops"
   ],
   "homepage": "https://github.com/DustyWalker/claude-code-marketplace",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/DustyWalker/claude-code-marketplace"
-  },
+  "repository": "https://github.com/DustyWalker/claude-code-marketplace",
   "license": "MIT",
   "agents": [
-    "code-reviewer",
-    "security-auditor",
-    "test-suite-generator",
-    "performance-optimizer",
-    "backend-typescript-architect",
-    "test-automator",
-    "qa-engineer",
-    "architecture-checker",
-    "frontend-developer",
-    "api-designer",
-    "database-architect",
-    "refactoring-specialist",
-    "deployment-engineer",
-    "cicd-automation",
-    "docker-specialist"
+    ".claude/agents/code-reviewer.md",
+    ".claude/agents/security-auditor.md",
+    ".claude/agents/test-suite-generator.md",
+    ".claude/agents/performance-optimizer.md",
+    ".claude/agents/backend-typescript-architect.md",
+    ".claude/agents/test-automator.md",
+    ".claude/agents/qa-engineer.md",
+    ".claude/agents/architecture-checker.md",
+    ".claude/agents/frontend-developer.md",
+    ".claude/agents/api-designer.md",
+    ".claude/agents/database-architect.md",
+    ".claude/agents/refactoring-specialist.md",
+    ".claude/agents/deployment-engineer.md",
+    ".claude/agents/cicd-automation.md",
+    ".claude/agents/docker-specialist.md"
   ],
   "commands": [
-    "review",
-    "test",
-    "security-scan",
-    "deploy"
+    ".claude/commands/review.md",
+    ".claude/commands/test.md",
+    ".claude/commands/security-scan.md",
+    ".claude/commands/deploy.md"
   ]
 }
