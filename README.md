@@ -1,19 +1,19 @@
 # Claude Code Marketplace
 
-**Official plugin marketplace for Claude Code featuring production-ready agents based on comprehensive market research.**
+**Plugin marketplace for Claude Code featuring production-ready agents based on comprehensive market research.**
 
 ## Quick Start
 
 Add this marketplace to your Claude Code installation:
 
 ```bash
-/plugin marketplace add claude-code-marketplace/claude-code-marketplace
+/plugin marketplace add DustyWalker/claude-code-marketplace
 ```
 
 Then install the Production Agents Suite:
 
 ```bash
-/plugin install production-agents-suite@claude-code-marketplace
+/plugin install production-agents-suite@DustyWalker/claude-code-marketplace
 ```
 
 ## What's Included
@@ -215,9 +215,9 @@ MIT License - See [LICENSE](LICENSE) for details.
 
 ## Support
 
-- **Issues**: Report bugs or request features via [GitHub Issues](https://github.com/claude-code-marketplace/claude-code-marketplace/issues)
-- **Discussions**: Join the community at [GitHub Discussions](https://github.com/claude-code-marketplace/claude-code-marketplace/discussions)
-- **Documentation**: See [docs/](docs/) folder for comprehensive guides
+- **Issues**: Report bugs or request features via [GitHub Issues](https://github.com/DustyWalker/claude-code-marketplace/issues)
+- **Discussions**: Join the community at [GitHub Discussions](https://github.com/DustyWalker/claude-code-marketplace/discussions)
+- **Documentation**: Included in plugin installation
 
 ## Acknowledgments
 
@@ -229,4 +229,4 @@ Built on research analyzing:
 
 ---
 
-**Start transforming your development workflow today**: `/plugin marketplace add claude-code-marketplace/claude-code-marketplace`
+**Start transforming your development workflow today**: `/plugin marketplace add DustyWalker/claude-code-marketplace`

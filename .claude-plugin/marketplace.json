@@ -2,15 +2,15 @@
   "name": "claude-code-marketplace",
   "version": "1.0.0",
   "owner": {
-    "name": "Claude Code Marketplace",
-    "email": "team@claudecode.dev",
-    "url": "https://github.com/claude-code-marketplace"
+    "name": "DustyWalker",
+    "email": "dustywalker@claudecode.dev",
+    "url": "https://github.com/DustyWalker"
   },
-  "description": "Official Claude Code plugin marketplace featuring production-ready agents based on comprehensive market research",
-  "homepage": "https://github.com/claude-code-marketplace/claude-code-marketplace",
+  "description": "Claude Code plugin marketplace featuring production-ready agents based on comprehensive market research",
+  "homepage": "https://github.com/DustyWalker/claude-code-marketplace",
   "repository": {
     "type": "git",
-    "url": "https://github.com/claude-code-marketplace/claude-code-marketplace"
+    "url": "https://github.com/DustyWalker/claude-code-marketplace"
   },
   "license": "MIT",
   "plugins": [
@@ -19,8 +19,8 @@
       "version": "1.0.0",
       "description": "15 production-ready Claude Code agents based on comprehensive market research. Delivers 70% ROI with 5-agent starter set, 10x efficiency with full deployment. Includes code review, security, testing, performance, backend, frontend, API design, database, refactoring, QA, architecture, E2E testing, deployment, CI/CD, and Docker specialists.",
       "author": {
-        "name": "Claude Code Marketplace",
-        "email": "team@claudecode.dev"
+        "name": "DustyWalker",
+        "email": "dustywalker@claudecode.dev"
       },
       "keywords": [
         "code-review",
@@ -39,14 +39,14 @@
         "quality",
         "devops"
       ],
-      "homepage": "https://github.com/claude-code-marketplace/claude-code-marketplace",
+      "homepage": "https://github.com/DustyWalker/claude-code-marketplace",
       "repository": {
         "type": "git",
-        "url": "https://github.com/claude-code-marketplace/claude-code-marketplace"
+        "url": "https://github.com/DustyWalker/claude-code-marketplace"
       },
       "license": "MIT",
       "source": "github",
-      "owner": "claude-code-marketplace",
+      "owner": "DustyWalker",
       "repo": "claude-code-marketplace",
       "branch": "main",
       "agents": [
