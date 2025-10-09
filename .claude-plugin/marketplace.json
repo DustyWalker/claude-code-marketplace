@@ -42,30 +42,7 @@
       "source": "github",
       "owner": "DustyWalker",
       "repo": "claude-code-marketplace",
-      "branch": "main",
-      "agents": [
-        ".claude/agents/code-reviewer.md",
-        ".claude/agents/security-auditor.md",
-        ".claude/agents/test-suite-generator.md",
-        ".claude/agents/performance-optimizer.md",
-        ".claude/agents/backend-typescript-architect.md",
-        ".claude/agents/test-automator.md",
-        ".claude/agents/qa-engineer.md",
-        ".claude/agents/architecture-checker.md",
-        ".claude/agents/frontend-developer.md",
-        ".claude/agents/api-designer.md",
-        ".claude/agents/database-architect.md",
-        ".claude/agents/refactoring-specialist.md",
-        ".claude/agents/deployment-engineer.md",
-        ".claude/agents/cicd-automation.md",
-        ".claude/agents/docker-specialist.md"
-      ],
-      "commands": [
-        ".claude/commands/review.md",
-        ".claude/commands/test.md",
-        ".claude/commands/security-scan.md",
-        ".claude/commands/deploy.md"
-      ]
+      "branch": "main"
     }
   ],
   "categories": [
