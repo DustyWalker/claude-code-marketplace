@@ -50,5 +50,6 @@
     "commands/deploy.md"
   ],
   "hooks": "hooks/hooks.json",
-  "settings": "settings.json"
+  "settings": "settings.json",
+  "mcp": "mcp.json"
 }
