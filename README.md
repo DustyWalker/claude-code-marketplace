@@ -92,10 +92,7 @@ Deploy all 15 agents for complete automation:
 
 ## Documentation
 
-- **[Deployment Guide](DEPLOYMENT-GUIDE.md)** - Comprehensive phased deployment strategy
-- **[Market Research](top-agents-research/comprehensive-agents-research.md)** - Analysis of 115K+ developers
-- **[System Prompt Guide](writing-agent-system-prompt/comprehensive-system-prompt-guide.md)** - Best practices for agent development
-- **[Official Docs](docs/)** - Reference documentation for settings, commands, MCP, agents, and plugins
+All documentation is included directly in the plugin installation. The agents are self-documenting with comprehensive descriptions and usage instructions.
 
 ## Success Metrics
 
@@ -154,17 +151,18 @@ Want to add your plugin to this marketplace?
 1. **Ensure quality standards**:
    - Comprehensive documentation
    - Production-ready code
-   - Follow [system prompt best practices](writing-agent-system-prompt/comprehensive-system-prompt-guide.md)
+   - Well-structured agent prompts with clear descriptions
 
 2. **Create a plugin**:
-   - Follow the [plugin structure guide](docs/plugins.md)
+   - Follow Claude Code plugin structure
    - Include `.claude-plugin/plugin.json` manifest
    - Add agents, commands, hooks as needed
+   - All paths must start with `./`
 
 3. **Submit a pull request**:
    - Add your plugin to `.claude-plugin/marketplace.json`
-   - Include documentation
-   - Follow naming conventions
+   - Include documentation (README.md)
+   - Test the plugin locally before submitting
 
 ## Creating Your Own Marketplace
 
@@ -172,13 +170,12 @@ Want to create a marketplace for your team or organization?
 
 1. **Fork this repository** or create a new one
 2. **Create `.claude-plugin/marketplace.json`** with your plugins
-3. **Add marketplace to Claude Code**:
+3. **Structure your plugins** with proper manifests
+4. **Add marketplace to Claude Code**:
 
 ```bash
 /plugin marketplace add your-org/your-marketplace
 ```
-
-See [plugin marketplaces documentation](docs/plugin-marketplaces.md) for details.
 
 ## Repository Structure
 
@@ -186,28 +183,26 @@ See [plugin marketplaces documentation](docs/plugin-marketplaces.md) for details
 claude-code-marketplace/
 ├── .claude-plugin/
 │   ├── marketplace.json       # Marketplace manifest
-│   └── plugin.json            # Production agents suite plugin
-├── .claude/                   # Production agents suite components
-│   ├── agents/                # 15 specialized agents
-│   ├── commands/              # 4 slash commands
-│   ├── hooks/                 # Quality gate hooks
-│   └── settings.json          # Security and permissions
-├── docs/                      # Official reference documentation
-│   ├── settings.md
-│   ├── slash-commands.md
-│   ├── mcp.md
-│   ├── sub-agents.md
-│   ├── plugins.md
-│   ├── plugin-marketplaces.md
-│   └── plugins-reference.md
-├── top-agents-research/       # Market intelligence
-│   └── comprehensive-agents-research.md
-├── writing-agent-system-prompt/  # Implementation guides
-│   └── comprehensive-system-prompt-guide.md
-├── DEPLOYMENT-GUIDE.md        # Phased deployment strategy
-├── CLAUDE.md                  # AI assistant guidance
+│   └── plugin.json            # Production agents suite manifest
+├── agents/                    # 15 specialized agents
+│   ├── code-reviewer.md
+│   ├── security-auditor.md
+│   ├── test-suite-generator.md
+│   └── ... (12 more agents)
+├── commands/                  # 4 slash commands
+│   ├── review.md
+│   ├── test.md
+│   ├── security-scan.md
+│   └── deploy.md
+├── hooks/                     # Quality gate hooks
+│   └── hooks.json
+├── settings.json              # Security and permissions
+├── mcp.json                   # MCP server configuration
+├── LICENSE                    # MIT License
 └── README.md                  # This file
 ```
+
+When installed, Claude Code will copy these files to your project's `.claude/` directory.
 
 ## License
 
