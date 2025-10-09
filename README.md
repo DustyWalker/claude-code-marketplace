@@ -7,13 +7,13 @@
 Add this marketplace to your Claude Code installation:
 
 ```bash
-/plugin marketplace add DustyWalker/claude-code-marketplace
+/plugin marketplace add https://github.com/DustyWalker/claude-code-marketplace
 ```
 
 Then install the Production Agents Suite:
 
 ```bash
-/plugin install production-agents-suite@DustyWalker/claude-code-marketplace
+/plugin install production-agents-suite@claude-code-marketplace
 ```
 
 ## What's Included
@@ -93,23 +93,6 @@ Deploy all 15 agents for complete automation:
 ## Documentation
 
 All documentation is included directly in the plugin installation. The agents are self-documenting with comprehensive descriptions and usage instructions.
-
-## Success Metrics
-
-### Phase 1 (Week 2)
-- Developer productivity: +40%
-- PR review time: -40%
-- Issues caught pre-merge: 85%
-- Test coverage: 80%+
-- Security vulnerabilities: -60%
-
-### Full Deployment (Week 8)
-- Developer efficiency: 10x
-- Deployment frequency: +60%
-- Deployment time: -50%
-- Test coverage: 80-95%
-- Code quality score: >90/100
-- **Ongoing value**: $150K/year savings per team
 
 ## Usage Examples
 
@@ -224,4 +207,4 @@ Built on research analyzing:
 
 ---
 
-**Start transforming your development workflow today**: `/plugin marketplace add DustyWalker/claude-code-marketplace`
+**Start transforming your development workflow today**: `/plugin marketplace add https://github.com/DustyWalker/claude-code-marketplace`
