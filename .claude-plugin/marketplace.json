@@ -39,10 +39,7 @@
       "homepage": "https://github.com/DustyWalker/claude-code-marketplace",
       "repository": "https://github.com/DustyWalker/claude-code-marketplace",
       "license": "MIT",
-      "source": "github",
-      "owner": "DustyWalker",
-      "repo": "claude-code-marketplace",
-      "branch": "main"
+      "source": "./"
     }
   ],
   "categories": [
