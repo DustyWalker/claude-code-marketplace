@@ -14,7 +14,7 @@ Plugin marketplace for Claude Code featuring production-ready AI agents.
 
 ## Production Agents Suite
 
-15 specialized AI agents for software development:
+16 specialized AI agents for software development and productivity:
 
 ### Code Quality (5 agents)
 - **code-reviewer** - Code review and best practices validation
@@ -33,11 +33,14 @@ Plugin marketplace for Claude Code featuring production-ready AI agents.
 - **test-automator** - E2E test automation with Playwright/Cypress
 - **qa-engineer** - QA testing and regression analysis
 
-### DevOps (3 agents)
+### DevOps (4 agents)
 - **deployment-engineer** - Multi-cloud deployment automation
 - **cicd-automation** - CI/CD pipeline configuration
 - **docker-specialist** - Container optimization
 - **refactoring-specialist** - Code refactoring and cleanup
+
+### Productivity (1 agent)
+- **prompt-builder** - Transform thoughts into structured AI prompts using conversation protocols
 
 ### Slash Commands
 
@@ -45,6 +48,7 @@ Plugin marketplace for Claude Code featuring production-ready AI agents.
 - `/test` - Generate tests
 - `/security-scan` - Security audit
 - `/deploy` - Deploy to staging/production
+- `/build-prompt` - Build structured prompts from ideas
 
 ## Usage
 
@@ -71,8 +75,8 @@ claude-code-marketplace/
 ├── .claude-plugin/
 │   ├── marketplace.json       # Marketplace manifest
 │   └── plugin.json            # Plugin manifest
-├── agents/                    # 15 agent files
-├── commands/                  # 4 slash commands
+├── agents/                    # 16 agent files
+├── commands/                  # 5 slash commands
 ├── hooks/                     # Quality gate hooks
 ├── settings.json              # Security permissions
 └── mcp.json                   # MCP server config

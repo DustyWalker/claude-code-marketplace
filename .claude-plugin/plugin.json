@@ -41,13 +41,15 @@
     "./agents/refactoring-specialist.md",
     "./agents/deployment-engineer.md",
     "./agents/cicd-automation.md",
-    "./agents/docker-specialist.md"
+    "./agents/docker-specialist.md",
+    "./agents/prompt-builder.md"
   ],
   "commands": [
     "./commands/review.md",
     "./commands/test.md",
     "./commands/security-scan.md",
-    "./commands/deploy.md"
+    "./commands/deploy.md",
+    "./commands/build-prompt.md"
   ],
   "hooks": "./hooks/hooks.json",
   "settings": "./settings.json",
