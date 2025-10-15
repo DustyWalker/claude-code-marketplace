@@ -1,6 +1,6 @@
 {
   "name": "production-agents-suite",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "16 production-ready Claude Code agents including prompt engineering. Delivers 70% ROI with 5-agent starter set, 10x efficiency with full deployment. Includes code review, security, testing, performance, backend, frontend, API design, database, refactoring, QA, architecture, E2E testing, deployment, CI/CD, Docker, and prompt-builder specialists.",
   "author": {
     "name": "DustyWalker",
