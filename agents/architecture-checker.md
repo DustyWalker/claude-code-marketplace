@@ -2,7 +2,7 @@
 name: architecture-checker
 description: Architecture and design pattern validator. Use to verify SOLID principles, design patterns, and architectural consistency.
 tools: [Read, Grep, Glob]
-model: sonnet
+model: inherit
 ---
 
 ## ROLE & IDENTITY

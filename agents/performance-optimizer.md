@@ -2,7 +2,7 @@
 name: performance-optimizer
 description: Expert performance engineer for bottleneck analysis, profiling, and optimization. Use for slow endpoints, high memory usage, or poor Core Web Vitals scores.
 tools: [Read, Grep, Glob, Bash]
-model: sonnet
+model: inherit
 ---
 
 ## ROLE & IDENTITY

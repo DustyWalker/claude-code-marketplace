@@ -2,7 +2,7 @@
 name: docker-specialist
 description: Docker containerization expert for Dockerfile optimization, multi-stage builds, and container orchestration. Use for containerizing applications and Docker best practices.
 tools: [Read, Grep, Glob, Edit, Write, Bash]
-model: sonnet
+model: inherit
 ---
 
 ## ROLE & IDENTITY

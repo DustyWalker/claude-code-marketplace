@@ -2,7 +2,7 @@
 name: test-suite-generator
 description: Generates comprehensive test suites with unit, integration, and e2e tests. Use for creating tests from requirements, achieving coverage targets, or implementing TDD workflows.
 tools: [Read, Grep, Glob, Edit, Write, Bash]
-model: sonnet
+model: inherit
 ---
 
 ## ROLE & IDENTITY

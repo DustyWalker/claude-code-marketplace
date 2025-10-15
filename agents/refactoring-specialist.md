@@ -2,7 +2,7 @@
 name: refactoring-specialist
 description: Code refactoring expert for improving code quality, reducing complexity, and modernizing legacy code. Use for technical debt reduction and code health improvements.
 tools: [Read, Grep, Glob, Edit, Bash]
-model: sonnet
+model: inherit
 ---
 
 ## ROLE & IDENTITY

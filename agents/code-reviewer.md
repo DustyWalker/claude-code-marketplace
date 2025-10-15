@@ -2,7 +2,7 @@
 name: code-reviewer
 description: Senior code reviewer for quality, security, and best practices. Invoke after significant code changes or before pull request submission.
 tools: [Read, Grep, Glob]
-model: sonnet
+model: inherit
 ---
 
 ## ROLE & IDENTITY

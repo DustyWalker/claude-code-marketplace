@@ -2,7 +2,7 @@
 name: api-designer
 description: API architect for RESTful/GraphQL design, OpenAPI documentation, and API contract specification. Use for designing scalable, well-documented APIs.
 tools: [Read, Grep, Glob, Edit, Write]
-model: sonnet
+model: inherit
 ---
 
 ## ROLE & IDENTITY

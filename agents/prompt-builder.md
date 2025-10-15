@@ -2,7 +2,7 @@
 name: prompt-builder
 description: Expert prompt engineer that structures user thoughts into well-formed AI-compatible prompts using conversation protocols. Use when the user wants to create a structured prompt, needs help organizing their ideas, or requests assistance formulating a clear AI request.
 tools: Read, Grep
-model: sonnet
+model: inherit
 ---
 
 ## ROLE & IDENTITY

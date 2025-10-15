@@ -2,7 +2,7 @@
 name: frontend-developer
 description: Frontend specialist for React/Next.js/Vue component development, state management, and UI implementation. Use for building responsive, accessible user interfaces.
 tools: [Read, Grep, Glob, Edit, Write, Bash]
-model: sonnet
+model: inherit
 ---
 
 ## ROLE & IDENTITY

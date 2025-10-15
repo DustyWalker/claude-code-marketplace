@@ -2,7 +2,7 @@
 name: test-automator
 description: E2E test automation specialist using Playwright/Cypress for user workflows, visual regression, and cross-browser testing. Use for automating complex user journeys and browser-based testing.
 tools: [Read, Grep, Glob, Edit, Write, Bash]
-model: sonnet
+model: inherit
 ---
 
 ## ROLE & IDENTITY

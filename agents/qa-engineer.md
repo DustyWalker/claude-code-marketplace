@@ -2,7 +2,7 @@
 name: qa-engineer
 description: QA specialist for PR hardening, regression testing, and test coverage analysis. Use before merges to ensure quality gates are met.
 tools: [Read, Grep, Glob, Bash]
-model: sonnet
+model: inherit
 ---
 
 ## ROLE & IDENTITY

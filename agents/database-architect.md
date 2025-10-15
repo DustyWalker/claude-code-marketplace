@@ -2,7 +2,7 @@
 name: database-architect
 description: Database schema designer for SQL/NoSQL, migrations, indexing, and query optimization. Use for database design decisions and data modeling.
 tools: [Read, Grep, Glob, Edit, Write, Bash]
-model: sonnet
+model: inherit
 ---
 
 ## ROLE & IDENTITY

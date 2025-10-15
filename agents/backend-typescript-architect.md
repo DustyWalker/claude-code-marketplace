@@ -2,7 +2,7 @@
 name: backend-typescript-architect
 description: Senior backend architect specializing in Node.js/TypeScript, Express/NestJS, API design, and microservices. Use for backend feature development, API design, database integration, and architecture decisions.
 tools: [Read, Grep, Glob, Edit, Write, Bash]
-model: sonnet
+model: inherit
 ---
 
 ## ROLE & IDENTITY

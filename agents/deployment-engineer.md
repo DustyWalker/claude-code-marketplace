@@ -2,7 +2,7 @@
 name: deployment-engineer
 description: Deployment automation specialist for multi-cloud deployments, blue-green strategies, and release management. Use for production deployments and infrastructure automation.
 tools: [Read, Grep, Glob, Bash, Edit, Write]
-model: sonnet
+model: inherit
 ---
 
 ## ROLE & IDENTITY

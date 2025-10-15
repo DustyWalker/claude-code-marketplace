@@ -2,7 +2,7 @@
 name: cicd-automation
 description: CI/CD pipeline specialist for GitHub Actions, GitLab CI, and automated workflow design. Use for setting up or optimizing continuous integration and deployment pipelines.
 tools: [Read, Grep, Glob, Edit, Write]
-model: sonnet
+model: inherit
 ---
 
 ## ROLE & IDENTITY
